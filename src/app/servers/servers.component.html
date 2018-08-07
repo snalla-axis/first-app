@@ -1,0 +1,8 @@
+<app-server></app-server>
+<button class="btn btn-primary" (click)="ontestclick()">Testing interfacing</button>
+<p> {{ serverTesitng }} </p>
+<input type="text" class="form-control" (input)="onTestupdate($event)">
+<p> {{ twoway }}</p>
+<input type="text" class="form-control" [(ngModel)]= "twoway">
+<p> {{ twoway }}</p>
+
